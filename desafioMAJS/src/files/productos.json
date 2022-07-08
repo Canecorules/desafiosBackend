@@ -1,0 +1,20 @@
+[
+	{
+		"title": "cuchillo",
+		"precio": 11000,
+		"thumbnail": "https://casaideasco.vtexassets.com/arquivos/ids/377663-2048-auto?v=637908884390400000&width=2048&height=auto&aspect=true",
+		"id": 1
+	},
+	{
+		"title": "cuchara",
+		"precio": 10000,
+		"thumbnail": "https://casaideasco.vtexassets.com/arquivos/ids/377663-2048-auto?v=637908884390400000&width=2048&height=auto&aspect=true",
+		"id": 2
+	},
+	{
+		"title": "tenedor",
+		"precio": 9000,
+		"thumbnail": "https://casaideasco.vtexassets.com/arquivos/ids/377663-2048-auto?v=637908884390400000&width=2048&height=auto&aspect=true",
+		"id": 3
+	}
+]
