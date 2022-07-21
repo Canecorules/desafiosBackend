@@ -1,0 +1,14 @@
+[
+	{
+		"title": "cuchara",
+		"precio": 10000,
+		"thumbnail": "https://casaideasco.vtexassets.com/arquivos/ids/377663-2048-auto?v=637908884390400000&width=2048&height=auto&aspect=true",
+		"id": 2
+	},
+	{
+		"title": "tenedor",
+		"precio": 9000,
+		"thumbnail": "https://www.industrialtaylor.com.co/web/image/product.product/5395/image_1024/%5BT024FDIF%5D%20Tenedor%20mesa%20europeo%2020.3%20cm%20Viotti%2018-10%20-%20Oneida?unique=9f19f1f",
+		"id": 3
+	}
+]
