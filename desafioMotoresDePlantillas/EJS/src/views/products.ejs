@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head') %> 
+<body>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" href="http://localhost:8080/">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://localhost:8080/newProduct">Agregar Producto</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Listar Productos</a>
+        </li>
+    </ul>
+
+    <div class="container bg-secondary">
+        <div>
+            <h1>Lista de productos</h1>
+        </div>
+        <ul class="list-group list-group-horizontal row ">
+            <li class="list-group-item col-4 bg-primary">Nombre</li>
+            <li class="list-group-item col-4 bg-primary">Precio</li>
+            <li class="list-group-item col-4 bg-primary">Imagen</li>
+        </ul>
+        <% if (listVoid) { %>
+            <h2>No hay productos</h2>
+        <% } else{%>
+            <% products.forEach(element => { %>
+                <ul class="list-group list-group-horizontal row" >
+                    <li class="list-group-item col-4" ><%= element.name %> </li>
+                    <li class="list-group-item col-4" >$ <%= element.price %></li>
+                    <li class="list-group-item col-4" >
+                        <img src="http://localhost:8080/images/<%= element.img %>" alt="product image">
+                    </li>
+                </ul>
+            <% }) %>
+        <% }%>
+        
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

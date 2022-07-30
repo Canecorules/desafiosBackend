@@ -1,0 +1,23 @@
+<div class="bg-light">
+    <div class="container bg-secondary">
+        <h1>Agregar un nuevo producto</h1>
+    </div>
+    <form id="formProduct">
+        <div class="mb-3">
+            <label for="name" class="form-label">Nombre del Producto</label>
+            <input name="name" type="text" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="price" class="form-label">Precio del Producto</label>
+            <input name="price" type="number" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="formFile" class="form-label">Seleccione la imagen del producto</label>
+            <input class="form-control" type="file" id="img" name="img" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<script src="js/newProduct.js"></script>

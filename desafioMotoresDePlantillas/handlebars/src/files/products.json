@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Cuchara",
+		"price": "11000",
+		"img": "1659124378102-cuchara.png",
+		"id": 1
+	},
+	{
+		"name": "Tenedor",
+		"price": "12500",
+		"img": "1659124422187-Tenedor.png",
+		"id": 2
+	},
+	{
+		"name": "Cuchillo",
+		"price": "9500",
+		"img": "1659124444398-cuchillo.webp",
+		"id": 3
+	}
+]
