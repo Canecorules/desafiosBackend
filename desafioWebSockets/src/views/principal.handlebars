@@ -1,0 +1,51 @@
+<div id="container1">
+    <div class="bg-light">
+        <div class="container bg-secondary">
+            <h1>Agregar un nuevo producto</h1>
+        </div>
+        <form id="formProduct">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre del Producto</label>
+                <input id="name" type="text" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="price" class="form-label">Precio del Producto</label>
+                <input id="price" type="number" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="formFile" class="form-label">URL imagen</label>
+                <input class="form-control" type="text" id="img" name="img" required>
+            </div>
+
+            <button id="button" type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <div class="container bg-secondary">
+        <div>
+            <h1>Lista de productos</h1>
+        </div>
+        <ul class="list-group list-group-horizontal row ">
+            <li class="list-group-item col-4 bg-primary">Nombre</li>
+            <li class="list-group-item col-4 bg-primary">Precio</li>
+            <li class="list-group-item col-4 bg-primary">Imagen</li>
+        </ul>
+        <div id="products">
+            
+        </div>
+    </div>
+</div>      
+    <div id="container2" class="container d-flex justify-content-center">
+        <div class="card mt-5">
+            <div class="d-flex flex-row justify-content-between p-3 adiv text-white">
+            <i class="fas fa-chevron-left"></i>
+            <span class="pb-3">Live chat</span>
+            <i class="fas fa-times"></i>
+        </div>        
+        <div class="form-group px-3">
+            <span id="log"></span>
+            <textarea id="chatBox" class="form-control" rows="5" placeholder="Type your message"></textarea>
+        </div>
+    </div>
+</div>
+
+
