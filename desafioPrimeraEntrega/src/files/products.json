@@ -1,0 +1,24 @@
+[
+	{
+		"name": "PINARELLO GAN DISC 105",
+		"description": "Hilo italiano BB",
+		"thumbnail": "https://i0.wp.com/bicicletasstrongman.co/wp-content/uploads/2022/04/gan-blanca.jpg?fit=1080%2C1080&ssl=1",
+		"price": 10900000,
+		"stock": 10,
+		"enable": true,
+		"id": 1,
+		"code": "u8lq2",
+		"time_stamp": "1.660.133.080.351"
+	},
+	{
+		"name": "COLNAGO G3-X",
+		"description": "Diseñada para un espacio de la rueda generoso, posibilidad de montar neumáticos de hasta un máximo de 42 milímetros. El espacio necesario también se garantiza para la descarga del barro en terrenos pesados.Se basa en el uso de frenos de disco y del eje pasante. Los discos miden 160 mm para darte la potencia de frenado adecuada incluso con una bicicleta completamente cargada (bolsas, accesorios).",
+		"thumbnail": "https://i0.wp.com/bicicletasstrongman.co/wp-content/uploads/2021/12/colnagon-2.jpg?fit=1026%2C1026&ssl=1",
+		"price": 19900000,
+		"stock": 8,
+		"enable": true,
+		"id": 2,
+		"code": "35trg",
+		"time_stamp": "1.660.135.098.468"
+	}
+]
